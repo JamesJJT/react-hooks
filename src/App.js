@@ -5,6 +5,7 @@ import UseLayoutEffectComponent from "./Components/UseLayoutEffectComponent";
 import UseImperativeHandleComponent from "./Components/UseImperativeHandle";
 import UseContext from "./Components/UseContext";
 import UseMemoComponent from "./Components/UseMemoComponent";
+import UseCallbackComponent from "./Components/UseCallbackComponent";
 
 function App (){
     return (
@@ -22,6 +23,8 @@ function App (){
             <UseContext />
             < hr/>
             <UseMemoComponent />
+            <hr/>
+            <UseCallbackComponent />
         </>
   );
 }
