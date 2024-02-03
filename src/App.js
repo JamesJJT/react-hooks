@@ -1,6 +1,7 @@
 import UseEffectComponent from "./Components/UseEffectComponent";
 import UseReducerComponent from "./Components/UseReducerComponent";
 import UseRefComponent from "./Components/UseRefComponent";
+import UseLayoutEffectComponent from "./Components/UseLayoutEffectComponent";
 
 function App (){
     return (
@@ -10,6 +11,8 @@ function App (){
             <UseReducerComponent />
             <hr/>
             <UseRefComponent />
+            <hr/>
+            <UseLayoutEffectComponent />
             <hr/>
         </>
   );

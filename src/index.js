@@ -1,6 +1,5 @@
 import react from 'react';
-import reactDOM from 'react-dom';
-import { createRoot } from 'react-dom';
+import reactDOM, {createRoot} from 'react-dom/client';
 
 import App from './App';
 
