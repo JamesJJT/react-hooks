@@ -3,6 +3,7 @@ import UseReducerComponent from "./Components/UseReducerComponent";
 import UseRefComponent from "./Components/UseRefComponent";
 import UseLayoutEffectComponent from "./Components/UseLayoutEffectComponent";
 import UseImperativeHandleComponent from "./Components/UseImperativeHandle";
+import UseContext from "./Components/UseContext";
 
 function App (){
     return (
@@ -17,7 +18,7 @@ function App (){
             <hr/>
             <UseImperativeHandleComponent />
             <hr/>
-
+            <UseContext />
         </>
   );
 }
