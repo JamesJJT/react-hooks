@@ -1,5 +1,6 @@
 import UseEffectComponent from "./Components/UseEffectComponent";
 import UseReducerComponent from "./Components/UseReducerComponent";
+import UseRefComponent from "./Components/UseRefComponent";
 
 function App (){
     return (
@@ -8,7 +9,7 @@ function App (){
             <hr />
             <UseReducerComponent />
             <hr/>
-
+            <UseRefComponent />
             <hr/>
         </>
   );
